@@ -1,0 +1,29 @@
+/* Custom Coastal Villa Theme */
+body {
+    background-color: #f8fafc;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+.hero-section {
+    background: linear-gradient(rgba(0, 48, 73, 0.65), rgba(0, 48, 73, 0.65)), url('../images/hero.jpg') center/cover no-repeat;
+    color: white;
+    padding: 100px 0;
+    border-radius: 12px;
+}
+
+.room-card img {
+    height: 220px;
+    object-fit: cover;
+}
+
+footer {
+    margin-top: auto;
+}
