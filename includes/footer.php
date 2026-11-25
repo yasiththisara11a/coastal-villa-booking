@@ -1,8 +1,10 @@
-</div> <!-- End main container -->
+<?php if (basename($_SERVER['PHP_SELF']) !== 'index.php'): ?>
+</div> <!-- End inner container -->
+<?php endif; ?>
 
-<footer class="bg-dark text-white text-center py-3">
+<footer class="text-white text-center py-3">
     <div class="container">
-        <p class="mb-0">&copy; 2026 Mirissa Bay Coastal Villa, Sri Lanka. All Rights Reserved.</p>
+        <p class="mb-0 small">&copy; 2026 Mirissa Bay Coastal Villa, Sri Lanka. All Rights Reserved.</p>
     </div>
 </footer>
 
